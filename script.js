@@ -4,6 +4,6 @@ Array.from(document.querySelectorAll('.form-element input')).forEach(i => {
 		i.dataset.touched = true
 	})
 	i.addEventListener('blur', () => {
-		if (i.value != '') i.dataset.touched = true
+		if (i.validity.valid === false) i.dataset.touched = true
 	})
 })
