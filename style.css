@@ -11,11 +11,14 @@ form > * {
 	display: flex;
 	flex-flow: row wrap;
 	color: hsl(0,0%,45%);
+	cursor: pointer;
 }
 
 .form-button {
 	background: none;
 	border: none;
+	outline: none;
+	cursor: pointer;
 	font-weight: bold;
 	font-size: 1rem;
 }
