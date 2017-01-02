@@ -1,5 +1,5 @@
-/* Delay visual feedback fro invalid form items untail initial submit or blur event */
-Array.from(document.querySelectorAll('.form-element input')).forEach(i => {
+/* Delay visual feedback for invalid form items until initial submit or blur event */
+Array.from(document.querySelectorAll('.form-element input, .form-element select, .form-element textarea')).forEach(i => {
 	i.addEventListener('invalid', () => {
 		i.dataset.touched = true
 	})
