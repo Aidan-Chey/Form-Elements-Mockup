@@ -13,8 +13,38 @@
 			<div class="input-description">Description Text</div>
 		</label>
 		<label class="form-element" for="field_2">
-			<input class="input-field" type="text" id="field_2" placeholder="text 2" required minlength="8">
+			<input class="input-field" type="text" id="field_2" placeholder="text 2" required list="datalist_browsers">
 			<span class="input-label">Field 2</span>
+			<svg class="input-line" viewbox="0,0 40,2" preserveAspectRatio="none"><path d="M0,1 L40,1" /></svg>
+			<div class="input-description">Description Text</div>
+			<datalist id="datalist_browsers">
+				<option value="Internet Explorer">
+				<option value="Firefox">
+				<option value="Chrome">
+				<option value="Opera">
+				<option value="Safari">
+			</datalist>
+		</label>
+		<label class="form-element" for="field_3">
+			<input class="input-field" type="number" id="field_3" placeholder="number 1" required min="1">
+			<span class="input-label">Field 3</span>
+			<svg class="input-line" viewbox="0,0 40,2" preserveAspectRatio="none"><path d="M0,1 L40,1" /></svg>
+			<div class="input-description">Description Text</div>
+		</label>
+		<label class="form-element" for="field_4">
+			<select class="input-field" id="field_4" placeholder="dropdown 1" required>
+				<option selected="true"></option>
+				<option>option 1</option>
+				<option>option 2</option>
+				<option>option 3</option>
+			</select>
+			<span class="input-label">Field 4</span>
+			<svg class="input-line" viewbox="0,0 40,2" preserveAspectRatio="none"><path d="M0,1 L40,1" /></svg>
+			<div class="input-description">Description Text</div>
+		</label>
+		<label class="form-element" for="field_5">
+			<input class="input-field" type="email" id="field_5" placeholder="email 1" required>
+			<span class="input-label">Field 5</span>
 			<svg class="input-line" viewbox="0,0 40,2" preserveAspectRatio="none"><path d="M0,1 L40,1" /></svg>
 			<div class="input-description">Description Text</div>
 		</label>
