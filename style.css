@@ -3,8 +3,11 @@ body {
 	font-size: 18px;
 }
 
-form > * {
-	padding: 1.5rem 1rem;
+form {
+	max-width: 600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 }
 
 .form-element {
@@ -12,6 +15,7 @@ form > * {
 	flex-flow: row wrap;
 	color: hsl(0,0%,45%);
 	cursor: pointer;
+	padding: 1.5rem 1rem;
 }
 
 .form-button {
@@ -21,6 +25,8 @@ form > * {
 	cursor: pointer;
 	font-weight: bold;
 	font-size: 1rem;
+	padding: 1.5rem 1rem;
+	text-align: left;
 }
 
 .input-label {
